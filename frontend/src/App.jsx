@@ -13,6 +13,8 @@ function App() {
     <>
       <Navbar />
       <main>
+        <p className='powitalnyTekst'>Witam na stronie cwelu!!!</p>
+        <p className='powitalnyTekst2'>Zjedź na dół chuju!</p>
         <img src="Bez_nazwy.jpg" alt="MainPhoto" id='zdjecieMain' />
         <section>
           <img src="Bez_nazwy.jpg" alt="smallPhoto" id='smallPhoto' />
