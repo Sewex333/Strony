@@ -7,6 +7,8 @@ import About from './pages/About.jsx'
 import Obozy from './pages/Obozy.jsx'
 import Treningi from './pages/Treningi.jsx'
 import Kontakt from './pages/Kontakt.jsx'
+import Form from './pages/Form.jsx'
+
 
 createRoot(document.getElementById('root')).render(
   <BrowserRouter>
@@ -16,6 +18,7 @@ createRoot(document.getElementById('root')).render(
       <Route path='/obozy-i-polkolonie' element={<Obozy />} />
       <Route path='/treningi' element={<Treningi />}></Route>
       <Route path='/kontakt' element={<Kontakt />}></Route>
+      <Route path='/formularz' element={<Form />}></Route>
     </Routes>
   </BrowserRouter>
 )

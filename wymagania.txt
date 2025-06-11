@@ -14,3 +14,11 @@ Dodatkowe:
 - rozpisanie zakładek drużyn, obozy, treningi, turnieje
 - mozliwosc zapisania sie na oboz i dokonania wpłaty 
 
+Future: 
+    -biale tlo
+    -czarny tekst
+    -złote elementy
+
+    sklep:
+        -zolte i pomaranczowe wyroznienia (sprzedazowe)
+

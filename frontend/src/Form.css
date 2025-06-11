@@ -1,0 +1,23 @@
+.container{
+    background-color: black;
+    color: gold;
+    width: 100%;
+}
+#chuj{
+    width: 50px;
+    height: 50px;
+}
+.cipka{
+    width: 300px;
+    height: 100px;
+}
+.formik{
+    padding: 30px;
+    margin-left: 10%;
+    border: 5px solid yellow;
+    width: 30%;
+}
+form{
+    gap: 60px;
+}
+
