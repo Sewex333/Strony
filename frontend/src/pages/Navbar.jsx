@@ -5,7 +5,7 @@ import { Link } from 'react-router'
 const Navbar = () => {
   return (
     <nav className='navbar'>
-        <Link to="/">Future</Link>
+        <Link to="/" id="Future">Future</Link>
         <div id='links'>
           <Link to="/o-nas" className='link'>O nas</Link>
           <Link to="/obozy-i-polkolonie" className='link'>Obozy i Półkolonie</Link>
