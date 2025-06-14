@@ -7,7 +7,7 @@ import Navbar from './pages/Navbar'
 import { motion, scale } from "motion/react";
 import Form from './pages/Form'
 import Aktualnosci from './pages/Aktualnosci'
-
+import Footer from './pages/Footer'
 
 
 function App() {
@@ -54,6 +54,7 @@ function App() {
         </section>
       </main>
       <Form />
+      <Footer />
     </>
   )
 }

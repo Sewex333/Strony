@@ -9,10 +9,10 @@ const Navbar = () => {
     <Link to="/" className="text-xl font-bold text-white hover:text-yellow-400">| Future</Link>
   </div>
   <div className="hidden md:flex gap-6">
-    <Link to="/o-nas" className="hover:text-yellow-400">O nas</Link>
-    <Link to="/obozy-i-polkolonie" className="hover:text-yellow-400">Obozy i Półkolonie</Link>
-    <Link to="/treningi" className="hover:text-yellow-400">Treningi</Link>
-    <Link to="/kontakt" className="hover:text-yellow-400">Kontakt</Link>
+    <Link to="/o-nas" className="hover:text-yellow-400" id='xd1'>O nas</Link>
+    <Link to="/obozy-i-polkolonie" className="hover:text-yellow-400" id='xd'>Obozy i Półkolonie</Link>
+    <Link to="/treningi" className="hover:text-yellow-400" id='xd2'>Treningi</Link>
+    <Link to="/kontakt" className="hover:text-yellow-400" id='xd3'>Kontakt</Link>
   </div>
 </nav>
 
