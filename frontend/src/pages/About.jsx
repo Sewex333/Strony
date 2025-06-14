@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from './Navbar';
 import "../About.css"
-
+import Footer from './Footer';
 
 function About(){
     return (
@@ -57,6 +57,7 @@ function About(){
                 <p>Jeśli mają Państwo jakiekolwiek pytania, jestem do dyspozycji.</p>
                 </div>
             </div>
+            <Footer />
         </>
     )
 }

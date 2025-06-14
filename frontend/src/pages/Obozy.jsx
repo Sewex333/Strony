@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from './Navbar';
 import '../Obozy.css'
+import Footer from './Footer';
 
 const Obozy = () => {
   return (
@@ -27,7 +28,9 @@ const Obozy = () => {
           </button>
         </a>
       </div>
+       <Footer />
     </div>
+    
   );
 };
 
