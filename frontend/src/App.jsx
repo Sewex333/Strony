@@ -24,8 +24,8 @@ function App() {
         >
           <div className='absolute bottom-[295px] left-10 z-10 bg-black max-w-[80%] h-50 w-300 shadow-xl rounded'></div>
           <div className="absolute bottom-[350px] left-10 z-10">
-            <h1 className="text-white text-5xl md:text-7xl font-black max-w-[80%] leading-tight px-6 py-4 rounded">
-              Twoja przyszłość zaczyna się w <span className="text-[#D3AF37]">Future</span>
+            <h1 className="text-white text-5xl md:text-7xl font-black max-w-[80%] leading-tight px-6 py-4 rounded ">
+              Twoja przyszłość zaczyna się w <span className="text-[#D3AF37] tracking-wider">Future</span>
             </h1>
           </div>
     </section>
