@@ -66,22 +66,22 @@ input[type="submit"]:hover {
 .formik{
     padding: 30px;
     margin-left: 10%;
-    border: 5px solid yellow;
+    border: 5px solid gold;
     width: 30%;
 }
 form{
     gap: 60px;
 } 
 #xd:hover{
-    color: yellow;
+    color: gold;
 }
 
 #xd1:hover{
-    color: yellow;
+    color: gold;
 }
 #xd2:hover{
-    color: yellow;
+    color: gold;
 }
 #xd3:hover{
-    color: yellow;
+    color: gold;
 }
