@@ -29,29 +29,50 @@ function App() {
             </h1>
           </div>
     </section>
-        <section>
-        <motion.div
-            initial={{opacity: 0, scale: 0}}
-            animate={{opacity: 1, scale: 1}}
-            transition={{
-              duration: 1,
-              scale: {type: "spring", visualDuration: 0.5, bounce: 0}
-            }}
-          >
-        <section className="flex flex-col md:flex-row items-center justify-between px-10 py-16 gap-10">
-          <img src="/Bez_nazwy.jpg" alt="Zdjęcie" className="w-full md:w-1/2 h-auto rounded-lg shadow-lg" />
-          <div className="bg-blue-900 text-yellow-300 p-6 rounded-lg md:w-1/2 text-lg shadow-md">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid nemo consequatur maxime...
-            </p>
-          </div>
-          <Aktualnosci />
-        </section>
-        </motion.div>
+        <section className="flex flex-col md:flex-row items-start justify-between px-10 py-16 gap-10">
+  {/* Lista z grafikami */}
+  <div className="flex-1 space-y-6">
+    <h2 className="text-3xl font-bold text-[#D3AF37] mb-6">W Future oferujemy:</h2>
+
+    <div className="flex items-start gap-4 bg-white p-4 rounded-xl shadow-lg hover:scale-[1.02] transition-transform">
+      <img src="/icons/shoot.png" alt="Sport" className="w-12 h-12" />
+      <p className="text-lg font-medium">Sportową rywalizację</p>
+    </div>
+
+    <div className="flex items-start gap-4 bg-white p-4 rounded-xl shadow-lg hover:scale-[1.02] transition-transform">
+      <img src="/icons/strategy.png" alt="Trener" className="w-12 h-12" />
+      <p className="text-lg font-medium">Rozwój pod okiem najlepszych trenerów</p>
+    </div>
+
+    <div className="flex items-start gap-4 bg-white p-4 rounded-xl shadow-lg hover:scale-[1.02] transition-transform">
+      <img src="/icons/football-pitch.png" alt="Turniej" className="w-12 h-12" />
+      <p className="text-lg font-medium">Różne turnieje i wydarzenia</p>
+    </div>
+
+    <div className="flex items-start gap-4 bg-white p-4 rounded-xl shadow-lg hover:scale-[1.02] transition-transform">
+      <img src="/icons/red.png" alt="Trening" className="w-12 h-12" />
+      <p className="text-lg font-medium">Dyscyplina sportowa</p>
+    </div>
+
+    <div className="flex items-start gap-4 bg-white p-4 rounded-xl shadow-lg hover:scale-[1.02] transition-transform">
+      <img src="/icons/brain.png" alt="Trening" className="w-12 h-12" />
+      <p className="text-lg font-medium">Treningi mentalne dla każdego zawodnika</p>
+    </div>
+
+    <div className="flex items-start gap-4 bg-white p-4 rounded-xl shadow-lg hover:scale-[1.02] transition-transform">
+      <img src="/icons/sport.png" alt="Trening" className="w-12 h-12" />
+      <p className="text-lg font-medium">Obozy i róznorodne polkolonie</p>
+    </div>
+  </div>
+
+  {/* Komponent Aktualnosci */}
+  <div className="flex-1">
+    <Aktualnosci />
+  </div>
+</section>
           {/* <div id='desc'>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid nemo consequatur maxime fugiat quisquam accusamus odit id, debitis enim ipsa temporibus fuga qui porro nihil at in, aliquam iste doloribus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur voluptatem vitae consequatur, officia repellat minus voluptas corrupti accusamus hic voluptates quis fuga eum, adipisci illo incidunt optio magnam vel illum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, aut! Fugiat rerum deleniti, tenetur consectetur commodi dolore odio non iure perspiciatis fuga explicabo eveniet beatae iusto debitis illo necessitatibus culpa.</p>
           </div> */}
-        </section>
       </main>
       <Form />
       <Footer />
